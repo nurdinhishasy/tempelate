@@ -1,0 +1,7 @@
+<description>Template description text. <b>Bold</b> and <br/> tags are 
+supported here and in labels.</description>
+ <injectJS> //Scripts to be injected in pages on certain URL's. Scripts should be put 
+in /contents/inject_js/. Settings object included into each script.
+ <script pattern="*" file="file1.js" />
+ <script pattern="*facebook.com*" file="file2.js" />
+<script regex=" .*facebook\.com$" file="file3.js" />
